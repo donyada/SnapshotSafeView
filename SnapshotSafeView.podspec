@@ -25,6 +25,13 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Each utility is a small and frequently used piece of logic or UI component.
+  Contains:
+    - Extension for easy use NSAttributedString
+    - Method for detection JailBreak
+    - Helper for working with keyboard
+    - Device detection manager
+    - and lots more!
                    DESC
 
   spec.homepage     = "https://github.com/Stampoo/SnapshotSafeView"
